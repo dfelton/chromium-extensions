@@ -1,0 +1,10 @@
+{
+    "name": "Reddit Promoted Blocker",
+    "version": "1.0",
+    "description": "Blocks Promoted Ads on Reddit",
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://www.reddit.com/*","https://reddit.com/*"]
+    }],
+    "manifest_version": 2
+}
