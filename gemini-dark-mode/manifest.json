@@ -1,0 +1,13 @@
+{
+    "name": "Gemini Dark Mode",
+    "version": "1.0",
+    "description": "Dark Mode Theme for Gemini.com",
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": [
+            "https://exchange.gemini.com/balances",
+            "https://exchange.gemini.com/transfer/*"
+        ]
+    }],
+    "manifest_version": 2
+}

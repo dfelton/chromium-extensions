@@ -1,0 +1,38 @@
+
+html .TransferRouter .MainLayout,
+html .TransferRouter .PageContent > div:nth-child(1) > div:nth-child(3),
+html .TransferRouter .PageContent > div:nth-child(1) > div:nth-child(4),
+html .Balances .MainLayout,
+html .Balances .PageContent > div:nth-child(2) > div:nth-child(1),
+html .Balances .PageContent > div:nth-child(2) > div:nth-child(2) > div,
+html .Balances .PageContent > div:nth-child(2) > div > a,
+html .Balances .PageContent > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2),
+html .Balances #SidebarFeed .ScrollWrap {
+	background-color: rgb(33, 40, 48);
+}
+
+html .Balances #SidebarFeed .ScrollWrap {
+	border-left: rgb(255, 255, 255);
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+html body,
+html body .h2,
+html body .h3,
+html body .h4,
+html body .h5,
+html body h2,
+html body h3,
+html body h4,
+html body h5,
+html body p,
+html body .FieldLabel,
+html .TransferRouter .PageContent > div:nth-child(1) > div:nth-child(2) > div > a,
+html .Balances .PageContent > div:nth-child(2) > div:nth-child(2) > div > div > div > button {
+	color: rgb(255, 255, 255);
+}
+
+html body .MenuItem {
+	color: rgb(33, 40, 48);
+}
