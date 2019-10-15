@@ -6,7 +6,8 @@
         "css": ["styles.css"],
         "matches": [
             "https://exchange.gemini.com/balances",
-            "https://exchange.gemini.com/transfer/*"
+            "https://exchange.gemini.com/transfer/*",
+            "https://exchange.gemini.com/signin*"
         ]
     }],
     "manifest_version": 2
