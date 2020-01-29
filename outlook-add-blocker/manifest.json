@@ -1,0 +1,12 @@
+{
+    "name": "Outlook Ad Blocker",
+    "version": "1.0",
+    "description": "Add Blocker for outlook.live.com",
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": [
+            "https://outlook.live.com/mail/*"
+        ]
+    }],
+    "manifest_version": 2
+}

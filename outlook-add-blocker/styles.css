@@ -1,0 +1,19 @@
+
+// Removes right hand advertisement panel  
+#app
+  > div
+    > div:nth-child(3)
+      > div:first-child
+        > div:first-child
+          > div:nth-child(4) { display: none !important }
+
+// Removes "Upgrade to Premium" at bottom of left panel
+#app
+  > div
+    > div:nth-child(3)
+      > div:first-child
+        > div:first-child
+          > div:first-child
+            > div:nth-child(2)
+              > div:first-child
+                > div:nth-child(2) { display: none !important }
