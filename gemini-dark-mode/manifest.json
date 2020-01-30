@@ -4,6 +4,7 @@
     "description": "Dark Mode Theme for Gemini.com",
     "content_scripts": [{
         "css": ["styles.css"],
+        "js": ["script.js"],
         "matches": [
             "https://exchange.gemini.com/balances",
             "https://exchange.gemini.com/transfer/*",
